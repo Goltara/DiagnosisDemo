@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>反馈</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>西门子故障诊断系统</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="http://cdn.bootcss.com/twitter-bootstrap/2.3.2/css/bootstrap.min.css">
+</head>
+<body>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="http://cdn.bootcss.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<div class="container">
+  <div class="row">
+    <div class="span12">
+      <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+          <div class="container-fluid">
+            <a class="btn btn-navbar" data-target=".navbar-responsive-collapse" data-toggle="collapse"></a> <a class="brand" href="#">故障诊断专家系统</a>
+            <div class="nav-collapse collapse navbar-responsive-collapse">
+              <ul class="nav">
+                <li class="disabled">
+                  <a href="#">首页</a>
+                </li>
+                <li class="active">
+                  <a href="index.html">诊断</a>
+                </li>
+                <li>
+                  <a href="#">知识库</a>
+                </li>
+                <ul class="nav pull-right">
+                </ul>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <form class="hero-unit">
+        <div class="row">
+          <div class="span12">
+            <label>请为我们的解决方案打分！(您的评价会对我们系统的提升有很大帮助！)</label>
+            <div class="radio">
+              <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios1"
+                       value="option1" checked> 非常满意
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios2"
+                       value="option2">
+                很满意
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios3"
+                       value="option3">
+                基本满意
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios4"
+                       value="option4">
+                不满意
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios5"
+                       value="option5">
+                很不满意
+              </label>
+            </div>
+          </div>
+        </div>
+        <fieldset>
+          <legend>评价或建议</legend>
+            <textarea rows="5" ></textarea>
+            <span class="help-block">请对解决方案进行评价，如果本系统没有解决您的问题，欢迎留下您的解决方案！</span> <a id="modal-49173" href="#modal-container-49173" role="button" class="btn" data-toggle="modal" type="submit">提交</a>
+          <div id="modal-container-49173" class="modal hide fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+              <h3 id="myModalLabel">
+                评价成功
+              </h3>
+            </div>
+            <div class="modal-body">
+              <p>
+                您的评价对本系统非常重要，感谢您的填写！
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button class="btn" data-dismiss="modal" aria-hidden="true">关闭</button>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+      <a href="index.html"><button class="btn-info">重新诊断</button></a>
+    </div>
+  </div>
+</div>
+</body>
+</html>

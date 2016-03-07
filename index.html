@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>西门子故障诊断系统</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<div class="container">
+  <div class="row">
+    <div class="span12">
+      <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+          <div class="container-fluid">
+            <a class="btn btn-navbar" data-target=".navbar-responsive-collapse" data-toggle="collapse"></a> <a class="brand" href="#">故障诊断专家系统</a>
+            <div class="nav-collapse collapse navbar-responsive-collapse">
+              <ul class="nav">
+                <li class="disabled">
+                  <a href="#">首页</a>
+                </li>
+                <li class="active">
+                  <a href="index.html">诊断</a>
+                </li>
+                <li>
+                  <a href="#">知识库</a>
+                </li>
+                <ul class="nav pull-right">
+                </ul>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-unit">
+      <h2>
+        提示
+      </h2>
+      <p>
+        此故障诊断专家系统的核心算法包括粗糙集、SimRank、贝叶斯算法，只需输入规范化故障描述，即可得到故障诊断结果。
+      </p>
+      <p>
+        <a class="btn" href="#">查看更多 »</a>
+      </p>
+        </div>
+      <form>
+        <fieldset>
+          <legend>输入故障描述项</legend>
+          <p>
+            <input type="text" name="des1" />&nbsp;<input type="text" name="des2" />&nbsp;<input type="text" name="des3" />&nbsp;<input type="text" name="des4"/>&nbsp;<input type="text" name="des5"/>&nbsp;<input type="text" name="des6" />&nbsp;<input type="text" name="des7"/>&nbsp;<input type="text" name="des8"/>
+          </p>
+            <button class="btn" type="submit" formaction="simrank.html">提交</button>
+        </fieldset>
+      </form>
+        <span class="label">开机不能进入系统</span> <span class="label">电池报警</span> <span class="label">MCP面板不可用</span> <span class="label">按键故障</span> <span class="label">RS232传输故障</span> <span class="label">主轴编码器故障</span> <span class="label">手轮故障</span> <span class="label">进给轴故障</span> <span class="label">运动方向不可变</span> <span class="label">定位误差大</span>
+      <p>
+        <span class="label">换刀故障</span> <span class="label">启动过程死机</span> <span class="label">过载</span> <span class="label">硬限位故障</span> <span class="label">开机不回参考点</span> <span class="label">PPU/HMI故障</span> <span class="label">找不到NC程序</span> <span class="label">开机无法启动</span> <span class="label">出现死机，重启无效</span> <span class="label">出现黑屏</span>
+      </p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
